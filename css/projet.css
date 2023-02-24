@@ -1,0 +1,65 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Barre de Navigation*/
+
+.nav-wrapper{
+  background-color: black;
+}
+.nav-wrapper > .brand-logo img{
+  height: 64px;
+}
+
+#scroll{
+  scroll-margin-top: 0;
+}
+
+/*Titre*/
+
+.title{
+color: yellow;
+text-align: center;
+font-family: 'Rubik Glitch', cursive
+}
+
+/*Cards*/
+
+.card-content{
+background-color: #cfd8dc;
+color:black;
+}
+
+/*Container*/
+
+.text{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.carousel{
+  margin-bottom: 50px;
+}
+
+/*Pied de Page*/
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
+
+.page-footer{
+background-color: black;
+text-align: center;
+}
